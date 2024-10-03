@@ -1,0 +1,120 @@
+{
+    "Common": {
+        "or": "Or",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "save": "Save",
+        "owner": "Owner",
+        "admin": "Admin",
+        "author": "Author",
+        "editor": "Editor",
+        "actions": "Actions"
+    },
+    "Layout": {
+        "toggle_theme_label": "Toggle theme",
+        "posts": "Posts",
+        "users": "Users",
+        "settings": "Settings",
+        "manage": "Manage"
+    },
+    "HomePage": {
+        "title": "👋 Hello, {name}!",
+        "description": "Select a blog to start managing or create a new one.",
+        "btn_label": "Create blog",
+        "tooltip_title": "Click to select"
+    },
+    "DashboardPage": {
+        "title": "👋 Hello, {name}!",
+        "description": "Welcome to the dashboard of {blogName}!",
+        "total_users": "Total Users",
+        "total_posts": "Total Posts",
+        "your_total_posts": "Total Posts Made by You"
+    },
+    "NewBlog": {
+        "title": "Create a new blog",
+        "ai_tooltip": "Automatically generate a blog."
+    },
+    "NewBlogUser": {
+        "title": "Add new user to the blog",
+        "success": "User added successfully!"
+    },
+    "NewBlogPost": {
+        "title": "Add New Blog Post",
+        "success": "Post successfully added to the blog",
+        "ai_tooltip": "Automatically generate a post."
+    },
+    "EditBlogPost": {
+        "title": "Edit Blog Post",
+        "success": "Post successfully edited"
+    },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "subtitle": "The page you are looking for does not exist.",
+        "btn_label": "Back to home page"
+    },
+    "SignInPage": {
+        "btn_label": "Sign in with {provider}",
+        "no_account": "Don't have an account?",
+        "btn_no_account_label": "Register"
+    },
+    "SignUpPage": {
+        "btn_label": "Register with {provider}",
+        "already_have_account": "Already have an account?",
+        "btn_have_account_label": "Sign in"
+    },
+    "VerifyEmailPage": {
+        "title": "Verify your email",
+        "subtitle": "An email with a magic link has been sent to your inbox. Click the link to access your account quickly! (If you don't find it, check your spam.)",
+        "btn_label": "Back to signin page"
+    },
+    "AuthErrorPage": {
+        "title": "Authentication error",
+        "subtitle": "We were unable to authenticate your account. Please try again later.",
+        "btn_label": "Back to signin page"
+    },
+    "UsersPage": {
+        "title": "Manage Users",
+        "description": "Manage blog users, control permissions, and add new users.",
+        "new_user_label": "New User",
+        "remove_user_label": "Remove this user from blog?",
+        "remove_user_description": "Deleting this user will remove all posts from this user from the blog. This action is irreversible."
+    },
+    "SettingsPage": {
+        "title": "Settings",
+        "description": "Manage blog settings and personalize the content.",
+        "delete_blog_label": "Delete blog",
+        "delete_blog_description": "Upon deleting the blog, it will no longer be available to you or other users, and the posts will no longer be accessible."
+    },
+    "PostsPage": {
+        "title": "Manage Posts",
+        "description": "Manage blog posts, edit, delete, and add new posts.",
+        "new_post_label": "New Post",
+        "remove_post_label": "Remove this post from blog?",
+        "remove_post_description": "Deleting this post will remove it from the blog. This action is irreversible."
+    },
+    "Form": {
+        "title_label": "Title",
+        "subtitle_label": "Subtitle",
+        "slug_label": "Slug",
+        "bg_color_label": "Background color",
+        "text_color_label": "Text color",
+        "name_label": "Your Name",
+        "user_name_label": "Username",
+        "email_label": "Your Email",
+        "user_email_label": "Email",
+        "role_label": "Role",
+        "body_label": "Body",
+        "author_label": "Author",
+        "validate_messages": {
+            "required": "Please fill in this field!"
+        }
+    },
+    "Errors": {
+        "auth/ACCOUNT_NOT_FOUND": "Account not found",
+        "auth/ACCOUNT_ALREADY_EXISTS": "Email already associated with an account",
+        "blog/SLUG_ALREADY_EXISTS": "Slug already in use by another blog",
+        "blog/USER_EMAIL_NOT_FOUND": "Email of user not found",
+        "blog/USER_ALREADY_IN_BLOG": "Email of user already associated with a blog",
+        "post/SLUG_ALREADY_EXISTS": "Slug already in use by another post"
+    }
+}
